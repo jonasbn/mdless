@@ -27,20 +27,20 @@ I often use iTerm2 in visor mode, so `qlmanage -p` is annoying. I still wanted a
 
     gem install mdless
 
-## Usage 
+## Usage
 
 `mdless [options] path` or `cat [path] | mdless`
 
 The pager used is determined by system configuration in this order of preference:
 
-* `$GIT_PAGER`
-* `$PAGER`
-* `git config --get-all core.pager`
-* `bat`
-* `less`
-* `more`
-* `cat`
-* `pager`
+1. `$GIT_PAGER`
+1. `$PAGER`
+1. `git config --get-all core.pager`
+1. `bat`
+1. `less`
+1. `more`
+1. `cat`
+1. `pager`
 
 ### Options
 
